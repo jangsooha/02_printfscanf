@@ -7,11 +7,10 @@ int main(int argc, char *argv[]) {
     char c;
     int i;
 
-    printf("input a number : ");
+    printf("input a character : ");
     scanf("%c", &c);
 
-    i=c-'A'
-    printf("The input number is %i\n", i);
+    printf("The next character of %c is %c\n", c, c+1);
 
 	return 0;
 
